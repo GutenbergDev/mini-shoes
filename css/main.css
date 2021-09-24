@@ -381,4 +381,23 @@ body {
     text-align: center;
     font-size: 1rem;
   }
+
+  .carousel-inner {
+    min-height: 600px !important;
+  }
+
+  .carousel-indicators [data-bs-target] {
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 50%;
+  }
+
+  .carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #f50053 !important;
+  }
+
+  .carousel-control-prev, 
+  .carousel-control-next {
+  width: 4% !important;
+  }
 }
