@@ -111,6 +111,12 @@ body {
   margin-bottom: 0px;
 }
 
+.h1-main__3 {
+  color: #7aa6cc;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
 .h5-main {
   font-size: 1.8rem;
   font-weight: bold;
@@ -126,7 +132,8 @@ body {
 /* circle */
 
 .circle-g,
-.circle-g2 {
+.circle-g2,
+.circle-g3 {
   position: absolute;
   background-color: #00AF97;
   width: 410px;
@@ -138,7 +145,8 @@ body {
 }
 
 .circle-p,
-.circle-p2 {
+.circle-p2,
+.circle-p3 {
   position: absolute;
   background-color: #ED9100;
   width: 290px;
@@ -156,6 +164,13 @@ body {
   background-color: #E5E2E9;
 }
 
+.circle-g3 {
+  background-color: #96bee2;
+}
+
+.circle-p3 {
+  background-color: #db1b32;
+}
 
 
 /*fim carousel*/
@@ -179,14 +194,6 @@ body {
   color: #f5f5f5;
 }
 
-.btn-main:active {
-  background-color: #01a08b;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-  transform: translateX(8px);
-}
-
-
 .container-btn {
   max-width: 250px;
 }
@@ -207,35 +214,22 @@ body {
   color: #f5f5f5;
 }
 
-.btn-main__2:active {
-  background-color: #f04f2b;
-  box-shadow: 0 5px #752a19;
-  transform: translateY(4px);
-  transform: translateX(8px);
-}
-
 .btn-main__3 {
   display: inline-block;
   padding: 5px 30px;
   text-decoration: none;
   color: #f5f5f5;
-  background-color: #ED9100;
+  background-color: #96bee2;
   font-size: 1.1rem;
   font-weight: bold;
   letter-spacing: 1px;
 }
 
 .btn-main__3:hover {
-  background-color: #01a08b;
+  background-color: #7aa6cc;
   color: #f5f5f5;
 }
 
-.btn-main__3:active {
-  background-color: #db8803;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-  transform: translateX(8px);
-}
 
 
 
@@ -245,14 +239,16 @@ body {
   /* circle */
 
   .circle-g,
-  .circle-g2 {
+  .circle-g2,
+  .circle-g3 {
     width: 320px;
     height: 320px;
     top: 50px;
   }
 
   .circle-p,
-  .circle-p2 {
+  .circle-p2,
+  .circle-p3 {
     width: 230px;
     height: 230px;
   }
@@ -270,14 +266,16 @@ body {
   /* circle */
 
   .circle-g,
-  .circle-g2 {
+  .circle-g2,
+  .circle-g3 {
     width: 200px;
     height: 200px;
     top: 130px;
   }
 
   .circle-p,
-  .circle-p2 {
+  .circle-p2,
+  .circle-p3 {
     width: 160px;
     height: 160px;
     bottom: 150px;
@@ -309,10 +307,6 @@ body {
 
   .main-nike-air-slid .w-75 {
     width: 100% !important;
-  }
-
-  .main-nike-air-slid {
-
   }
 
   .main-nike-air-slid p {
@@ -350,7 +344,8 @@ body {
   }
 
   .circle-g,
-  .circle-g2 {
+  .circle-g2,
+  .circle-g3 {
     width: 130px;
     height: 130px;
     top: 0px;
@@ -358,7 +353,8 @@ body {
   }
 
   .circle-p,
-  .circle-p2 {
+  .circle-p2,
+  .circle-p3 {
     width: 90px;
     height: 90px;
     bottom: -150px;
@@ -383,7 +379,7 @@ body {
   }
 
   .carousel-inner {
-    min-height: 600px !important;
+    min-height: 540px !important;
   }
 
   .carousel-indicators [data-bs-target] {
