@@ -299,14 +299,31 @@ body {
 
   .main-nike-air-slid {
     display: flex;
-    justify-content: space-between;
-    height: 400px;
+    width: 100%;
+    height: auto;
+    right: 1px;
+    position: absolute;
+    top: 120px;
     z-index: 3;
   }
 
   .main-nike-air-slid .w-75 {
     width: 100% !important;
+  }
 
+  .main-nike-air-slid {
+
+  }
+
+  .main-nike-air-slid p {
+    text-align: justify;
+    font-size: .9rem !important;
+  }
+
+  .container-btn {
+    display: flex;
+    max-width: 400px;
+    justify-content: center;
   }
 
   /*Esta class coloca os conteúdos em column a partir de 425px*/
@@ -356,27 +373,12 @@ body {
     background-color: #E5E2E9;
   }
 
-  .h1-main {
-    color: #00AF97;
-    font-weight: bold;
-    margin-bottom: 0px;
-  }
-  
-  .h1-main__2 {
-    color: #FE542C;
-    font-weight: bold;
-    margin-bottom: 0px;
+  .h1-main, .h1-main__2, .h1-main__3 {
+    text-align: center;
   }
   
   .h5-main {
+    text-align: center;
     font-size: 1rem;
-    font-weight: bold;
-  }
-  
-  .main-nike-air-slid {
-    display: flex;
-    justify-content: space-between;
-    height: 400px;
-    z-index: 4;
   }
 }
