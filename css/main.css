@@ -283,27 +283,40 @@ body {
 
 
 
-/*direction controlls*/
-
-.glide__arrow--left {
-  position: absolute;
-  top: 200px;
-  left: -35px;
-  background-color: #00AF97;
-  border: 1px solid #01a08b;
-  color: #fff;
-  font-weight: bold;
+/*card one and two*/
+.card-one {
+  display: flex;
 }
 
-.glide__arrow--right {
-  position: absolute;
-  right: -20px;
-  top: 200px;
-  background-color: #00AF97;
-  border: 1px solid #01a08b;
-  color: #fff;
-  font-weight: bold;
+.card-one, .card-two {
+  border-radius: 0px;
+  background: #f4f0f0;
+  box-shadow:  5px 5px 7px #d7d3d3,
+             -5px -5px 7px #ffffff;
 }
+
+.card-one .w-50 h3 {
+  font-size: 2.2rem;
+}
+
+.card-one .w-50 p {
+  font-size: .9rem;
+  max-width: 80%;
+  text-align: justify;
+}
+
+.card-one img {
+  max-width: 230px;
+  height: 240px;
+}
+
+.card-one .card-item2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
 
 
 
