@@ -263,6 +263,26 @@ body {
   opacity: 1;
 }
 
+.flickity-prev-next-button {
+  top: 50%;
+  width: 30px;
+  height: 30px;
+  border-radius: 0%;
+}
+
+.flickity-button {
+  position: absolute;
+  background: hsla(172, 100%, 34%, 0.75);
+  border: none;
+  color: #f5f5f5;
+}
+
+.flickity-button:hover {
+  position: absolute;
+  background: hsla(172, 100%, 34%, 100);
+  border: none;
+  color: #E5E2E9;
+}
 
 
 /*direction controlls*/
