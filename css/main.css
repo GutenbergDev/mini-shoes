@@ -239,7 +239,7 @@ body {
 }
 
 .carousel-cell {
-  width: 190px;
+  width: 250px;
   height: auto;
   margin-right: 10px;
 }
@@ -249,7 +249,7 @@ body {
   max-height: 100%;
   margin: 0 auto;
   max-width: 100%;
-  opacity: 0;
+  opacity: inherit;
   -webkit-transition: opacity 0.4s;
           transition: opacity 0.4s;
 }
