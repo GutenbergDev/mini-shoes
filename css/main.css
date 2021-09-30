@@ -229,12 +229,70 @@ body {
   background-color: #7aa6cc;
   color: #f5f5f5;
 }
+/*fim button and slidShow*/
+
+/* start section  Nike air max carousel */
+
+
+.main-style {
+  margin-top: 100px;
+}
+
+.section-carousel .carousel {
+  background: #195574;
+}
+
+.carousel-cell {
+  width: 190px;
+  height: 200px;
+  margin-right: 10px;
+  background: #333;
+}
+
+.carousel-cell-image {
+  display: block;
+  max-height: 100%;
+  margin: 0 auto;
+  max-width: 100%;
+  opacity: 0;
+  -webkit-transition: opacity 0.4s;
+          transition: opacity 0.4s;
+}
+
+/* fade in lazy loaded image */
+.carousel-cell-image.flickity-lazyloaded,
+.carousel-cell-image.flickity-lazyerror {
+  opacity: 1;
+}
+
+
+
+/*direction controlls*/
+
+.glide__arrow--left {
+  position: absolute;
+  top: 200px;
+  left: -35px;
+  background-color: #00AF97;
+  border: 1px solid #01a08b;
+  color: #fff;
+  font-weight: bold;
+}
+
+.glide__arrow--right {
+  position: absolute;
+  right: -20px;
+  top: 200px;
+  background-color: #00AF97;
+  border: 1px solid #01a08b;
+  color: #fff;
+  font-weight: bold;
+}
 
 
 
 
-/*fim button*/
-
+/* responsive star */
 @media (min-width: 1024px) and (max-width: 1439px) {
   /* circle */
 
@@ -252,6 +310,16 @@ body {
     width: 230px;
     height: 230px;
   }
+
+  /* start section  Nike air max carousel */
+.card-style__img img {
+  max-width: 190px;
+}
+
+.card-style__text {
+  width: 190px;
+}
+
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -287,6 +355,10 @@ body {
 
   .circle-p2 {
     background-color: #E5E2E9;
+  }
+
+  .carousel-inner {
+    min-height: 540px !important;
   }
 }
 
@@ -384,8 +456,8 @@ body {
 
   .carousel-indicators [data-bs-target] {
     width: 15px !important;
-    height: 15px !important;
-    border-radius: 50%;
+    height: 3px !important;
+    border-radius: 30%;
   }
 
   .carousel-dark .carousel-indicators [data-bs-target] {
