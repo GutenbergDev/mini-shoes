@@ -316,7 +316,16 @@ body {
   align-items: center;
 }
 
+.card-item3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.card-item3 img {
+  max-width: 264px;
+  height: 235px;
+}
 
 
 
