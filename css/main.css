@@ -179,6 +179,7 @@ body {
 .container-btn__main {
   display: flex;
   width: 100%;
+  padding-top: 30px;
 }
 
 .container-btn__main-sb {
@@ -189,10 +190,8 @@ body {
 
 .container-btn {
   display: inline-flex;
-  margin: 1em;
+  margin: 0rem;
   position: relative;
-  justify-content: center;
-  align-items: flex-start;
   padding-top: 26px;
   box-sizing: border-box;
   height: auto;
@@ -336,64 +335,63 @@ body {
 
 
 /*card one and two*/
-.container-card-item {
-  height: auto;
-}
-.card-one-container {
-  max-height: 326px;
-}
-
-.card-two-container {
-  display: flex;
-}
-
 .card-one {
   display: flex;
+  overflow: hidden;
+  height: 396px;
+  background: #f5f5f5;
+  box-shadow:  5px 5px 8px #e9e9e9,
+              -5px -5px 8px #ffffff;
 }
 
-.card-one, .card-two {
-  height: 400px;
-  border-radius: 0px;
-  background: #f4f0f0;
-  box-shadow:  5px 5px 7px #d7d3d3,
-             -5px -5px 7px #ffffff;
-             overflow: hidden;
+.card-item {
+  overflow: hidden;
 }
 
-.card-one .w-50 h3 {
-  font-size: 2.2rem;
+.card-one h3 {
+  font-size: 2.8rem;
 }
 
-.card-one .w-50 p {
-  font-size: .9rem;
-  max-width: 80%;
+.card-one p {
+  font-size: 1.2rem;
   text-align: justify;
 }
 
-
-
-.card-one img {
-  max-width: 230px;
-  height: 240px;
-}
-
-.card-one .card-item2 {
+.card-item2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-left: 10px;
+  overflow: hidden;
+}
+
+.card-item2 img {
+  width: 280px;
+}
+
+.card-two {
+  display: flex;
+  overflow: hidden;
+  height: 396px;
+  background: #f5f5f5;
+  box-shadow:  5px 5px 8px #e9e9e9,
+             -5px -5px 8px #ffffff;
 }
 
 .card-item3 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0px 20px;
+}
+
+.card-item3 h3 {
+  font-size: 2.7rem;
 }
 
 .card-item3 img {
-  max-width: 264px;
-  height: 235px;
+  width: 200px;
 }
-
 
 
 
@@ -416,6 +414,15 @@ body {
     height: 230px;
   }
 
+  .container-btn {
+    display: flex;
+    margin: 0rem;
+    position: relative;
+    justify-content: center;
+    align-items: flex-start;
+
+  }
+
   /* start section  Nike air max carousel */
   .card-style__img img {
     max-width: 190px;
@@ -424,13 +431,19 @@ body {
   .card-style__text {
     width: 190px;
   }
-
-  .card-item3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+/*card one and two*/
+  .card-one h3 {
+    font-size: 2rem;
+  }
+  
+  .card-one p {
+    font-size: 1.1rem;
+    text-align: justify;
   }
 
+  .card-item3 h3 {
+    font-size: 2rem;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -472,6 +485,20 @@ body {
     min-height: 540px !important;
   }
 
+  /*card one and two*/
+  .card-one h3 {
+    font-size: 1.5rem;
+  }
+  
+  .card-one p {
+    font-size: 1rem;
+    text-align: justify;
+  }
+
+  .card-item3 h3 {
+    font-size: 1.5rem;
+  }
+
   .container-btn {
     display: flex;
     margin: 0rem;
@@ -484,7 +511,7 @@ body {
     width: 300px;
     border-radius: 0px;
     overflow: initial;
-}
+  }
 
   .main-nike-air-slid p {
     text-align: justify;
@@ -601,12 +628,26 @@ body {
     justify-content: center;
     align-items: center;
     padding-top: 0px;
-    box-sizing: border-box;
     height: 50px;
     width: 100%;
     border-radius: 0px;
     overflow: initial;
 }
+
+  .btn-main,
+  .btn-main__1,
+  .btn-main__2,
+  .btn-main__3 {
+    display: block;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    width: 300px;
+    height: 45px;
+    margin: -8px 0 0 -8px;
+    border: 0;
+    color: #fff;
+  }
 
   .carousel-inner {
     min-height: 540px !important;
