@@ -176,6 +176,17 @@ body {
 /*fim carousel*/
 
 /*início button*/
+.container-btn__main {
+  display: flex;
+  width: 100%;
+}
+
+.container-btn__main-sb {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+}
+
 .container-btn {
   display: inline-flex;
   margin: 1em;
@@ -186,11 +197,12 @@ body {
   box-sizing: border-box;
   height: auto;
   width: 300px;
-  border-radius: 8px;
+  border-radius: 0px;
   overflow: hidden;
 }
 
 .btn-main,
+.btn-main__1,
 .btn-main__2,
 .btn-main__3 {
   display: block;
@@ -199,13 +211,17 @@ body {
   position: relative;
   width: 300px;
   height: 58px;
-  margin: -9px 0 0 -9px;
+  margin: -8px 0 0 -8px;
   border: 0;
   color: #fff;
 }
 
 .btn-main__text {
   background-color: #f50053;
+}
+
+.btn-main__text-1 {
+  background-color: #00AF97;
 }
 
 .btn-main__text-2 {
@@ -216,7 +232,9 @@ body {
   background-color: #7aa6cc;
 }
 
-.btn-main__text, 
+
+.btn-main__text,
+.btn-main__text-1, 
 .btn-main__text-2,
 .btn-main__text-3 {
   position: absolute;
@@ -224,19 +242,18 @@ body {
   align-items: center;
   justify-content: center;
   top: 0;
-  right: 6px;
-  bottom: 6px;
+  right: 5px;
+  bottom: 5px;
   left: 0;
   box-sizing: border-box;
-  font-size: 16px;
+  font-size:1.1rem;
+  font-weight: bold;
 }
 
-.btn-main::before,
-.btn-main__2::before,
-.btn-main__3::before {
+.btn-main::before {
   content: "";
   position: absolute;
-  border: 2px solid #396d83;
+  border: 1px solid #000;
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
   top: 7px;
   right: 0;
@@ -244,7 +261,21 @@ body {
   left: 7px;
 }
 
+.btn-main__1::before,
+.btn-main__2::before,
+.btn-main__3::before {
+  content: "";
+  position: absolute;
+  border: 1px solid #000;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
+  top: 7px;
+  right: 0;
+  bottom: 0;
+  left: 10px;
+}
+
 .btn-main:active .btn-main__text,
+.btn-main__1:active .btn-main__text-1,
 .btn-main__2:active .btn-main__text-2,
 .btn-main__3:active .btn-main__text-3 {
   transform: translateX(6px) translateY(6px);
@@ -386,13 +417,19 @@ body {
   }
 
   /* start section  Nike air max carousel */
-.card-style__img img {
-  max-width: 190px;
-}
+  .card-style__img img {
+    max-width: 190px;
+  }
 
-.card-style__text {
-  width: 190px;
-}
+  .card-style__text {
+    width: 190px;
+  }
+
+  .card-item3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
 }
 
@@ -434,9 +471,41 @@ body {
   .carousel-inner {
     min-height: 540px !important;
   }
+
+  .container-btn {
+    display: flex;
+    margin: 0rem;
+    position: relative;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 0px;
+    box-sizing: border-box;
+    height: auto;
+    width: 300px;
+    border-radius: 0px;
+    overflow: initial;
 }
 
-@media (min-width: 320px) and (max-width: 425px) {
+  .main-nike-air-slid p {
+    text-align: justify;
+    margin-top: 10px !important;
+    font-size: 1rem !important;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 767px) {
+    
+  .main-nike-air-slid {
+    align-items: center;
+  }
+
+  /* circle */
+  .container-img {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
   .fixed-top {
     position: relative;
   }
@@ -524,6 +593,20 @@ body {
     text-align: center;
     font-size: 1rem;
   }
+
+  .container-btn {
+    display: flex;
+    margin: 0rem;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+    box-sizing: border-box;
+    height: 50px;
+    width: 100%;
+    border-radius: 0px;
+    overflow: initial;
+}
 
   .carousel-inner {
     min-height: 540px !important;
