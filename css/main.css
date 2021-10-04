@@ -187,6 +187,7 @@ body {
   display: flex;
   justify-content: center;
   width: 60%;
+  margin-top: 50px;
 }
 
 .container-btn {
@@ -360,6 +361,7 @@ body {
 .card-one p {
   font-size: 1.2rem;
   text-align: justify;
+  margin-top: 40px;
 }
 
 .card-item2 {
@@ -420,7 +422,7 @@ body {
 
   /*Button main*/
   .container-btn__main {
-    top: 330px;
+    margin-top: 20px;
   }
 
   .container-btn {
@@ -429,7 +431,6 @@ body {
     position: relative;
     justify-content: center;
     align-items: flex-start;
-
   }
 
   /* start section  Nike air max carousel */
@@ -442,12 +443,17 @@ body {
   }
 /*card one and two*/
   .card-one h3 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+  }
+
+  .card-item2 img {
+    width: 250px;
   }
   
   .card-one p {
     font-size: 1.1rem;
     text-align: justify;
+    margin-top: 20px;
   }
 
   .card-item3 h3 {
@@ -496,16 +502,31 @@ body {
 
   /*card one and two*/
   .card-one h3 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+  }
+
+  .card-item2 {
+    margin-left: 0px;
+  }
+
+  .card-item2 img {
+    width: 250px;
   }
   
   .card-one p {
     font-size: 1rem;
     text-align: justify;
+    margin-top: 0px;
   }
 
   .card-item3 h3 {
-    font-size: 1.5rem;
+    font-size: 2rem;
+  }
+
+
+  /*Button main*/
+  .container-btn__main {
+    margin-top: 0px;
   }
 
   .container-btn {
@@ -538,6 +559,42 @@ body {
   /* circle */
   .container-img {
     margin-top: 20px;
+  }
+
+  /*card one and two*/
+
+  .card-one {
+    height: 580px;
+  }
+  
+  .card-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .card-one h3 {
+    font-size: 1.8rem;
+  }
+
+  .card-item2 {
+    margin-left: 0px;
+  }
+
+  .card-item2 img {
+    width: 200px;
+  }
+  
+  .card-one p {
+    font-size: 1rem;
+    text-align: justify;
+    margin-top: 0px;
+  }
+
+  .card-item3 h3 {
+    font-size: 2rem;
   }
 }
 
