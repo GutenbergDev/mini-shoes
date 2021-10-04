@@ -337,6 +337,7 @@ body {
 
 
 /*card one and two*/
+
 .card-one {
   display: flex;
   flex-direction: column;
@@ -749,8 +750,13 @@ body {
 
     /*card one and two*/
 
+    .container-card-item .ps-2{
+      padding-left: 0rem;
+    }
+
     .card-one {
-      height: 580px;
+      height: 650px;
+      margin-bottom: 10px;
     }
   
     .card-two {
