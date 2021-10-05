@@ -291,6 +291,11 @@ body {
   margin-top: 100px;
 }
 
+.text-center h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
 .carousel-cell {
   width: 250px;
   height: auto;
