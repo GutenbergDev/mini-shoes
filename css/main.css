@@ -249,6 +249,7 @@ body {
   box-sizing: border-box;
   font-size:1.1rem;
   font-weight: bold;
+  letter-spacing: 1px;
 }
 
 .btn-main::before {
@@ -426,9 +427,6 @@ body {
 
 .container-row__style .col-3 {
   padding: 0px;
-}
-
-.col-3 {
   flex: 0 0 auto;
   width: 24.5% !important;
 }
@@ -502,6 +500,10 @@ body {
   width: 50px;
 }
 
+.container-btn__cadastreSe {
+
+}
+
 /*main footer*/
 .main-footer {
   background-color: #1E2E41;
@@ -527,6 +529,7 @@ body {
 }
 
 .container-footer a:hover {
+  display: block;
   color: #00AF97;
 }
 
@@ -758,6 +761,11 @@ body {
 
   .card-item3 h3 {
     font-size: 1.8rem;
+  }
+
+  /**/
+  .container-row__style .col-3 {
+    width: 50% !important;
   }
 }
 
