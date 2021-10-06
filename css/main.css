@@ -519,9 +519,11 @@ body {
 }
 
 .container-footer a {
+  display: block;
   color: #dadada;
   text-decoration: none;
   margin-bottom: 4px;
+  font-size: .9rem;
 }
 
 .container-footer a:hover {
@@ -548,6 +550,10 @@ body {
   display: flex;
   flex-direction: column;
   margin-bottom: 5px;
+}
+
+.container-footer__pagamento img {
+  margin-right: 5px;
 }
 
 /* responsive star */
