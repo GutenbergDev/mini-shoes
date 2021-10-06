@@ -361,7 +361,7 @@ body {
 }
 
 .card-one h3 {
-  font-size: 2.8rem;
+  font-size: 2.5rem;
 }
 
 .card-one p {
@@ -398,14 +398,82 @@ body {
 }
 
 .card-item3 h3 {
-  font-size: 2.7rem;
+  font-size: 2.5rem;
 }
 
 .card-item3 img {
   width: 200px;
 }
 
+/*Novidades shoes*/
+.container-news .row {
+  justify-content: space-between !important;
+}
 
+.text-center__news {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.text-center__news h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.container-row__style .col-3 {
+  padding: 0px;
+}
+
+.col-3 {
+  flex: 0 0 auto;
+  width: 24.5% !important;
+}
+
+.container-col1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px;
+  border-radius: 0px;
+  background: #E5E5E5;
+  box-shadow:  6px 6px 12px #dadada,
+               -6px -6px 12px #f0f0f0;
+}
+
+.container-col1 .w-100,
+.container-col2 .w-100,
+.container-col3 .w-100,
+.container-col4 .w-100 {
+  display: flex;
+  flex-direction: column;
+  background-color: #E5E5E5;
+  height: 174px;
+  text-align: center;
+}
+
+.container-col2 {
+  background: #E5E5E5;
+  box-shadow:  6px 6px 12px #dadada,
+               -6px -6px 12px #f0f0f0;
+}
+
+.container-col3 {
+  background: #E5E5E5;
+  box-shadow:  6px 6px 12px #dadada,
+               -6px -6px 12px #f0f0f0;
+}
+
+.container-col4 {
+  background: #E5E5E5;
+  box-shadow:  6px 6px 12px #dadada,
+               -6px -6px 12px #f0f0f0;
+}
+
+.container-col1__link a {
+  color: rgb(139, 139, 139);
+  font-weight: bold;
+  text-transform: uppercase;
+}
 
 /* responsive star */
 @media (min-width: 1024px) and (max-width: 1439px) {
