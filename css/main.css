@@ -361,7 +361,7 @@ body {
 }
 
 .card-one h3 {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
 }
 
 .card-one p {
@@ -398,7 +398,7 @@ body {
 }
 
 .card-item3 h3 {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
 }
 
 .card-item3 img {
@@ -406,13 +406,17 @@ body {
 }
 
 /*Novidades shoes*/
+.container-news {
+  margin-bottom: 50px;
+}
+
 .container-news .row {
   justify-content: space-between !important;
 }
 
 .text-center__news {
   text-align: center;
-  padding-top: 50px;
+  padding-top: 80px;
   padding-bottom: 20px;
 }
 .text-center__news h2 {
@@ -473,6 +477,34 @@ body {
   color: rgb(139, 139, 139);
   font-weight: bold;
   text-transform: uppercase;
+}
+
+.container-col1__link a:hover {
+  color: #00AF97;
+  transition: .5s;
+}
+
+/*container cadastre-se*/
+.containerCadastro {
+  background-color: #FCFBFC;
+}
+
+.container-cadastr__item1 {
+  text-align: center;
+}
+
+.container-cadastr__item1 h6 {
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.containerCadastro img {
+  width: 50px;
+}
+
+/*main footer*/
+.main-footer {
+  background-color: #1E2E41;
 }
 
 /* responsive star */
