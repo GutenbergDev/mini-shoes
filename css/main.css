@@ -507,6 +507,49 @@ body {
   background-color: #1E2E41;
 }
 
+.main-footer .col-3 {
+  color: #dadada;
+  padding: 0px;
+  width: 25% !important;
+}
+
+.container-footer span {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.container-footer a {
+  color: #dadada;
+  text-decoration: none;
+  margin-bottom: 4px;
+}
+
+.container-footer a:hover {
+  color: #00AF97;
+}
+
+.container-footer__copy .col-6 {
+  padding: 0px;
+  transition: .5s;
+}
+
+.container-footer__copy-item {
+  display: flex;
+  align-items: flex-end;
+}
+
+.container-footer__copy p {
+  color: #dadada;
+  font-size: .6rem;
+  margin-bottom: 5px !important;
+}
+
+.container-footer__pagamento {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+
 /* responsive star */
 @media (min-width: 1024px) and (max-width: 1439px) {
   /* circle */
