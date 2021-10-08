@@ -187,7 +187,7 @@ body {
   display: flex;
   justify-content: center;
   width: 60%;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 .container-btn {
@@ -250,6 +250,14 @@ body {
   font-size:1.1rem;
   font-weight: bold;
   letter-spacing: 1px;
+}
+
+.btn-main__text:hover,
+.btn-main__text-1:hover, 
+.btn-main__text-2:hover,
+.btn-main__text-3:hover {
+  color: #dddddd;
+  transition: .2s;
 }
 
 .btn-main::before {
@@ -500,10 +508,6 @@ body {
   width: 50px;
 }
 
-.container-btn__cadastreSe {
-
-}
-
 /*main footer*/
 .main-footer {
   background-color: #1E2E41;
@@ -589,6 +593,10 @@ body {
     position: relative;
     justify-content: center;
     align-items: flex-start;
+  }
+
+  .container-btn__main-sb {
+    margin-top: 60px;
   }
 
   /* start section  Nike air max carousel */
@@ -687,6 +695,10 @@ body {
     margin-top: 0px;
   }
 
+  .container-btn__main-sb {
+    margin-top: 70px;
+  }
+
   .container-btn {
     display: flex;
     margin: 0rem;
@@ -766,6 +778,10 @@ body {
   /**/
   .container-row__style .col-3 {
     width: 50% !important;
+  }
+
+  .container-col1__title h4 {
+    font-size: 1rem;
   }
 }
 
@@ -856,6 +872,10 @@ body {
   .h5-main {
     text-align: center;
     font-size: 1rem;
+  }
+
+  .container-btn__main-sb {
+    margin-top: 40px;
   }
 
   .container-btn {
@@ -959,4 +979,59 @@ body {
       font-size: 1.8rem;
     }
 
+    .container-row__style .col-3 {
+      width: 50% !important;
+    }
+
+    .container-col1__title h4 {
+      font-size: 1rem;
+    }
+
+    .main-footer {
+      background-color: #1E2E41;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    .main-footer .col-3 {
+      color: #dadada;
+      padding: 0px;
+      width: 25% !important;
+    }
+
+    .main-footer .col-3 {
+      color: #dadada;
+      padding: 0px;
+      width: 50% !important;
+    }
+
+    .container-footer span {
+      font-size: .8rem;
+    }
+
+    .container-footer a {
+    font-size: .6rem;
+    }
+    
+    .container-footer__copy {
+      flex-direction: column-reverse;
+    }
+
+    .container-footer__copy .col-6 {
+      padding: 0px;
+      transition: .5s;
+      width: 100%;
+    }
+
+    .main-footer .col-3 {
+      width: 100% !important;
+    }
+
+    .container-footer__pagamento img {
+      width: 30px;
+    }
+
+    .container-footer__pagamento .justify-content-end {
+      justify-content: flex-start !important;
+    }
 }
